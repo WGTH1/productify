@@ -51,8 +51,8 @@ export const productRelations = relations(products, ({ one, many }) => ({
 export type User = typeof users.$inferSelect;
 export type NewUser = typeof users.$inferInsert;
 
-export type Product = typeof users.$inferSelect;
-export type NewProduct = typeof users.$inferInsert;
+export type Product = typeof products.$inferSelect;
+export type NewProduct = typeof products.$inferInsert;
 
-export type Comment = typeof users.$inferSelect;
-export type NewComment = typeof users.$inferInsert;
+export type Comment = typeof comments.$inferSelect;
+export type NewComment = typeof comments.$inferInsert;
